@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/nav_donor"
+        android:title="Donor Form" />
+
+    <item
+        android:id="@+id/nav_dry"
+        android:title="Dry_Food" />
+
+    <item
+        android:id="@+id/nav_frozen"
+        android:title="Frozen Food" />
+
+    <item
+        android:id="@+id/nav_non"
+        android:title="Non Food" />
+
+    <item
+        android:id="@+id/nav_pet"
+        android:title="Pet Food" />
+
+    <item
+        android:id="@+id/nav_monetary"
+        android:title="Monetary " />
+
+</menu>
