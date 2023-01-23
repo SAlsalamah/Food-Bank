@@ -20,7 +20,6 @@
         android:layout_height="match_parent">
 
     </LinearLayout>
-
     <!-- this the navigation view which draws and shows the navigation drawer -->
     <!-- include the menu created in the menu folder -->
     <com.google.android.material.navigation.NavigationView
