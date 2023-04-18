@@ -3,92 +3,125 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="HardcodedText">
 
-    <item
-        android:id="@+id/nav_donor"
-        android:title="Donor Form" />
 
-    <item
-        android:id="@+id/nav_receivingAndInspection"
-        android:title="Receiving and Inspection Form" />
 
-    <item
-        android:id="@+id/nav_squares"
-        android:title="Squares Form" />
 
-    <item
-        android:id="@+id/nav_notProcessed"
-        android:title="Not Processed Form" />
 
-    <item
-        android:id="@+id/nav_non"
-        android:title="Non Food Form" />
+    <item android:title="Main Forms">
 
-    <item
-        android:id="@+id/nav_bulk"
-        android:title="Bulk Food Form" />
+        <menu>
 
-    <item
-        android:id="@+id/nav_candy"
-        android:title="Candy Food Form" />
+            <group android:checkableBehavior="single">
 
-    <item
-        android:id="@+id/nav_coolerBreadAndBakery"
-        android:title="Cooler Bread and Bakery Food Form" />
+            <item
+                android:id="@+id/nav_donor"
+                android:title="Donor Form" />
 
-    <item
-        android:id="@+id/nav_assortedCooler"
-        android:title="Assorted Cooler Form" />
+            <item
+                android:id="@+id/nav_receivingAndInspection"
+                android:title="Receiving and Inspection Form" />
 
-    <item
-        android:id="@+id/nav_dairyByWeight"
-        android:title="Dairy Form" />
+            <item
+                android:id="@+id/nav_squares"
+                android:title="Squares Form" />
 
-    <item
-        android:id="@+id/nav_dryBreadAndBakery"
-        android:title="Dry Bread and Bakery Form" />
 
-    <item
-        android:id="@+id/nav_assorted"
-        android:title="Assorted Form" />
+            </group>
 
-    <item
-        android:id="@+id/nav_frozenBreadAndBakery"
-        android:title="Frozen Bread and Bakery Form" />
+        </menu>
 
-    <item
-        android:id="@+id/nav_frozenRetailMeat"
-        android:title="Frozen Retail Meat Form" />
+    </item>
 
-    <item
-        android:id="@+id/nav_assortedFrozen"
-        android:title="Assorted Frozen Form" />
+    <item android:title="Pallets Forms">
 
-    <item
-        android:id="@+id/nav_furniture"
-        android:title="Furniture Form" />
+        <menu>
 
-    <item
-        android:id="@+id/nav_pet"
-        android:title="Pet Form" />
+            <group>
 
-    <item
-        android:id="@+id/nav_retailFR"
-        android:title="Retail FR Form" />
+            <item
+                android:id="@+id/nav_notProcessed"
+                android:title="Not Processed Form" />
 
-    <item
-        android:id="@+id/nav_sDDairy"
-        android:title="SD Dairy Form" />
+            <item
+                android:id="@+id/nav_non"
+                android:title="Non Food Form" />
 
-    <item
-        android:id="@+id/nav_shiners"
-        android:title="Shiners Form" />
+            <item
+                android:id="@+id/nav_bulk"
+                android:title="Bulk Food Form" />
 
-    <item
-        android:id="@+id/nav_snacks"
-        android:title="Snacks Form" />
+            <item
+                android:id="@+id/nav_candy"
+                android:title="Candy Food Form" />
 
-    <item
-        android:id="@+id/nav_venison"
-        android:title="Venison Form" />
+            <item
+                android:id="@+id/nav_coolerBreadAndBakery"
+                android:title="Cooler Bread and Bakery Food Form" />
+
+            <item
+                android:id="@+id/nav_assortedCooler"
+                android:title="Assorted Cooler Form" />
+
+            <item
+                android:id="@+id/nav_dairyByWeight"
+                android:title="Dairy Form" />
+
+            <item
+                android:id="@+id/nav_dryBreadAndBakery"
+                android:title="Dry Bread and Bakery Form" />
+
+            <item
+                android:id="@+id/nav_assorted"
+                android:title="Assorted Form" />
+
+            <item
+                android:id="@+id/nav_frozenBreadAndBakery"
+                android:title="Frozen Bread and Bakery Form" />
+
+            <item
+                android:id="@+id/nav_frozenRetailMeat"
+                android:title="Frozen Retail Meat Form" />
+
+            <item
+                android:id="@+id/nav_assortedFrozen"
+                android:title="Assorted Frozen Form" />
+
+            <item
+                android:id="@+id/nav_furniture"
+                android:title="Furniture Form" />
+
+            <item
+                android:id="@+id/nav_pet"
+                android:title="Pet Form" />
+
+            <item
+                android:id="@+id/nav_retailFR"
+                android:title="Retail FR Form" />
+
+            <item
+                android:id="@+id/nav_sDDairy"
+                android:title="SD Dairy Form" />
+
+            <item
+                android:id="@+id/nav_shiners"
+                android:title="Shiners Form" />
+
+            <item
+                android:id="@+id/nav_snacks"
+                android:title="Snacks Form" />
+
+            <item
+                android:id="@+id/nav_venison"
+                android:title="Venison Form" />
+
+            <item
+                android:id="@+id/nav_allergen"
+                android:title="Allergen Form" />
+
+            </group>
+
+        </menu>
+
+    </item>
 
 </menu>
