@@ -39,10 +39,6 @@
             <group>
 
             <item
-                android:id="@+id/nav_notProcessed"
-                android:title="Not Processed Form" />
-
-            <item
                 android:id="@+id/nav_non"
                 android:title="Non Food Form" />
 

@@ -36,6 +36,8 @@ class MainActivity : AppCompatActivity() {
             when(it.itemId){
 
                 R.id.nav_bulk -> replaceFragment(Bulk(), it.title.toString())
+                R.id.nav_candy -> replaceFragment(Candy(), it.title.toString())
+                R.id.nav_non -> replaceFragment(NonFood(), it.title.toString())
             }
             true
         }
